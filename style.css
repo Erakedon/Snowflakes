@@ -1,0 +1,40 @@
+body
+{
+    background-color: #aaf;
+    overflow: hidden;
+    padding: 20%;
+}
+
+#snowdriftsContainer
+{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0%;
+    left: 0px;
+
+    width: 100%;
+}
+
+#flakesCanvas
+{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #88e;
+    opacity: 0.5;
+}
+
+.snowDrift
+{
+    float: left;
+    bottom: 0px;
+    background-color: white;
+    height: 20px;
+    transform: scaleX(10);
+
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+    transition: 5s;
+}
